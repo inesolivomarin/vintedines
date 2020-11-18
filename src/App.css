@@ -1,1 +1,50 @@
-/* Other rules */
+.header-logo {
+  height: 30px;
+  cursor: pointer;
+}
+/* 
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-container {
+  position: relative;
+}
+
+.header-login-button,
+.header-signup-button {
+  display: flex;
+  background-color: white;
+  color: #2cb1ba;
+  height: 30px;
+  width: 115px;
+  border: 1px solid #2cb1ba;
+  border-radius: 5px;
+  font-family: "Maison Neue";
+  font-size: 12px;
+  outline: none;
+  cursor: pointer;
+}
+
+.header-logout-button {
+  height: 30px;
+  width: 115px;
+  border: 1px solid #2cb1ba;
+  border-radius: 5px;
+  font-family: "Maison Neue";
+  font-size: 12px;
+  outline: none;
+  border: none;
+  background-color: #c2175b;
+  color: white;
+  cursor: pointer;
+}
+
+.search-icon {
+  position: absolute;
+  left: 7px;
+  top: 12px;
+  color: #bbbbbb;
+}  */

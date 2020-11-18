@@ -55,12 +55,12 @@ const Publish = ({ token }) => {
   };
 
   return token ? (
-    <div className="publish-main">
+    <div>
       <div className="publish-container">
         <h2>Vends ton article</h2>
 
         <form onSubmit={handleSubmit}>
-          <div className="file-select">
+          <div className="selectfile">
             <p>Ajoute jusqu'à 20 photos</p>
             {preview ? (
               <div className="dashed-preview-image">
@@ -101,7 +101,7 @@ const Publish = ({ token }) => {
                 type="text"
                 id="title"
                 name="title"
-                placeholder="ex: Chemise Sézane verte"
+                placeholder="ex: ..."
                 onChange={(event) => {
                   const value = event.target.value;
                   setTitle(value);
@@ -114,7 +114,7 @@ const Publish = ({ token }) => {
                 name="description"
                 id="description"
                 rows="5"
-                placeholder="ex: porté quelquefois, taille correctement"
+                placeholder="ex: ..."
                 onChange={(event) => {
                   const value = event.target.value;
                   setDescription(value);
@@ -129,7 +129,7 @@ const Publish = ({ token }) => {
                 type="text"
                 id="selectedBrand"
                 name="selectedBrand"
-                placeholder="ex: Zara"
+                placeholder="ex: ..."
                 onChange={(event) => {
                   const value = event.target.value;
                   setSelectedBrand(value);
@@ -142,7 +142,7 @@ const Publish = ({ token }) => {
                 type="text"
                 id="selectedSize"
                 name="selectedSize"
-                placeholder="ex: L / 40 / 12"
+                placeholder="ex: ..."
                 onChange={(event) => {
                   const value = event.target.value;
                   setSelectedSize(value);
@@ -155,7 +155,7 @@ const Publish = ({ token }) => {
                 type="text"
                 id="color"
                 name="color"
-                placeholder="ex: Fushia"
+                placeholder="ex: ..."
                 onChange={(event) => {
                   const value = event.target.value;
                   setColor(value);
@@ -176,7 +176,7 @@ const Publish = ({ token }) => {
               <input
                 name="city"
                 id="city"
-                placeholder="ex: Paris"
+                placeholder="ex: ..."
                 onChange={(event) => setCity(event.target.value)}
               />
             </div>

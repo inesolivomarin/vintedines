@@ -39,7 +39,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="home-offers">
+      <div className="homeoffers">
         {data.offers.map((offer) => {
           return (
             <>
